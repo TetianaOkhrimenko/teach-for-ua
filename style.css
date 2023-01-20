@@ -606,7 +606,8 @@ p {
   margin-bottom: 70px;
 }
 
-.program-list-item .icon {
+.program-list-item .icon,
+.partner-item .icon {
   padding: 35px;
   width: 100px;
   height: 100px;
@@ -698,6 +699,59 @@ p {
   margin-top: 39px;
   flex: 1;
   flex-basis: 3.3%;
+}
+
+.partners-up-content {
+  padding-left: 210px;
+  padding-bottom: 100px;
+}
+
+.partners-up-content h3 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: uppercase;
+  margin-bottom: 70px;
+  width: 345px;
+}
+
+.partners-up-content p:nth-of-type(2) {
+  font-weight: 300;
+}
+
+.partners-down-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.partner-item {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0 0 50px;
+  transition: all 400ms ease-in-out;
+}
+
+.partner-item h3 {
+  margin-bottom: 70px;
+}
+
+.partner-item p {
+  font-weight: 300;
+}
+
+.partner-icon-1 {
+  width: 90px;
+}
+
+.partner-icon-2 {
+  width: 209px;
+
+  background-color: #ababab;
+}
+
+.partner-icon-3,
+.partner-icon-4 {
+  width: 204px;
 }
 
 @media (max-width: 600px) {
