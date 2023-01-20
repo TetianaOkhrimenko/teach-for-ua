@@ -903,6 +903,9 @@ p {
   .box-2 {
     padding: 2rem;
   }
+  .box-2 p:last-of-type {
+    width: 100%;
+  }
 
   .boxes-down {
     display: grid;
