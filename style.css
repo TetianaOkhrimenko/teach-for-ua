@@ -521,6 +521,7 @@ p {
 
 .icon-content {
   align-self: flex-end;
+  cursor: pointer;
 }
 
 .globe {
@@ -613,6 +614,7 @@ p {
   width: 100px;
   height: 100px;
   align-self: flex-end;
+  cursor: pointer;
 }
 
 .program-list-item:hover .icon,
@@ -1048,6 +1050,16 @@ p {
 
   .support-list-item .dash {
     flex-basis: 20%;
+  }
+
+  .support-list .long-flesh {
+    width: 100%;
+  }
+
+  .support-list-item .plus-icon {
+    max-width: 100%;
+    width: 15px;
+    height: 15px;
   }
 
   .partners-down-content {
