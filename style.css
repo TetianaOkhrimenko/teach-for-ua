@@ -839,14 +839,14 @@ p {
   }
 
   .hero-up .text-content h1 {
-    font-size: 2.5rem;
-    line-height: 1.5;
+    font-size: 2rem;
+    line-height: 1.2;
     width: 100%;
     margin-bottom: 2rem;
   }
 
   .hero-down .text-content h2 {
-    line-height: 1.5;
+    line-height: 1.2;
     margin-bottom: 2rem;
   }
 
@@ -878,7 +878,7 @@ p {
   .main-item-2 .text-info h3,
   .main-item-3 .text-info h3,
   .main-item-4 .text-info h3 {
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
   }
 
   .main-item-2 .image-content,
