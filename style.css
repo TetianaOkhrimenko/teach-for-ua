@@ -776,6 +776,10 @@ p {
     line-height: 1.5;
   }
 
+  .btn {
+    padding: 1rem 1rem;
+  }
+
   .rectangle {
     display: none;
   }
