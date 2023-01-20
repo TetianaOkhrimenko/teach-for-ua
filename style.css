@@ -937,6 +937,8 @@ p {
   .philosophy {
     background-image: url(images/philosophy-background_small.png);
     background-attachment: fixed;
+    background-size: auto;
+    background-repeat: no-repeat;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
@@ -1018,6 +1020,12 @@ p {
     padding: 2rem;
   }
 
+  .support-text h3 {
+    font-size: 32px;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
   .support-list {
     padding-top: 3rem;
   }
@@ -1032,6 +1040,14 @@ p {
 
   .support-list-item:nth-of-type(4) h4 {
     width: 100%;
+  }
+
+  .support-list-item .left-text {
+    flex-basis: 80%;
+  }
+
+  .support-list-item .dash {
+    flex-basis: 20%;
   }
 
   .partners-down-content {
