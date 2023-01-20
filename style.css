@@ -622,6 +622,76 @@ p {
   height: 30px;
 }
 
+.support {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 150px 214px 150px 210px;
+}
+
+.support-text h3 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: uppercase;
+  margin-bottom: 70px;
+}
+
+.support-text p:nth-of-type(2) {
+  font-weight: 300;
+}
+
+.support-list {
+  padding-top: 234px;
+}
+
+.support-list .long-flesh {
+  width: 456px;
+  height: 1px;
+  background: #000000;
+  opacity: 0.15;
+  margin-bottom: 30px;
+}
+
+.support-list h4 {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 70px;
+}
+
+.support-list p {
+  font-weight: 400;
+  opacity: 0.6;
+  margin-bottom: 70px;
+  width: 420px;
+}
+
+.support-list-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.support-list-item .left-text {
+  flex: 1;
+  flex-basis: 96.7%;
+}
+
+.support-list-item .plus-icon {
+  width: 15px;
+  height: 15px;
+  margin-top: 35px;
+  flex: 1;
+  flex-basis: 3.3%;
+}
+
+.support-list-item .dash {
+  width: 15px;
+  height: 1.4px;
+  background: #000000;
+  margin-top: 39px;
+  flex: 1;
+  flex-basis: 3.3%;
+}
+
 @media (max-width: 600px) {
   body {
     font-size: 1.5rem;
