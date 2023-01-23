@@ -809,6 +809,9 @@ p {
   .nav ul {
     grid-template-columns: 1fr;
   }
+  .nav li {
+    font-size: 18px;
+  }
 
   .btn {
     display: block;
