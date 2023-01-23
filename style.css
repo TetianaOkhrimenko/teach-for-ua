@@ -1152,13 +1152,12 @@ p {
 
   .support-list-item .plus-icon {
     max-width: 100%;
-    flex-basis: 20%;
     width: 15px;
     height: 15px;
   }
 
   .partners-up-content {
-    width: 100%;
+    width: 90%;
     margin-left: 2rem;
     margin-bottom: 2rem;
   }
@@ -1203,6 +1202,10 @@ p {
     display: none;
   }
 
+  .number {
+    margin-bottom: 1rem;
+  }
+
   .container {
     max-width: 100%;
   }
@@ -1236,10 +1239,18 @@ p {
   }
 
   .hero-up .text-content h1 {
-    font-size: 2.375rem;
+    font-size: 2rem;
     line-height: 1.2;
     width: 100%;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-up .text-content p:nth-of-type(2) {
+    margin-bottom: 4rem;
+  }
+
+  .hero-up .text-content span {
+    display: inline;
   }
 
   .hero-up .image-content {
@@ -1248,9 +1259,13 @@ p {
   }
 
   .hero-down .text-content h2 {
-    font-size: 2.125rem;
+    font-size: 2rem;
     line-height: 1.2;
     margin-bottom: 2rem;
+  }
+
+  .hero-down .text-content span {
+    display: inline;
   }
 
   .hero-up .image-content {
@@ -1270,10 +1285,15 @@ p {
     padding: 3rem;
   }
 
+  .main-item-1 h2 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
   .main-item-2 .text-info h3,
   .main-item-3 .text-info h3,
   .main-item-4 .text-info h3 {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
   .main-item-2 .text-content,
@@ -1295,11 +1315,12 @@ p {
   }
 
   .box-2 {
-    padding: 4rem;
+    padding: 0 2rem 2rem 2rem;
   }
 
   .box-2 h2 {
     margin-bottom: 2rem;
+    font-size: 2rem;
   }
 
   .boxes-down {
@@ -1313,9 +1334,18 @@ p {
     margin-bottom: 1.5rem;
   }
 
+  .box-icon {
+    padding-right: 1rem;
+  }
+
+  .box-4 img,
+  .box-5 img,
+  .box-6 img {
+    align-self: center;
+  }
   .philosophy {
-    background-attachment: fixed;
-    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .philosophy-text-content {
@@ -1323,6 +1353,7 @@ p {
   }
 
   .philosophy-text-content h3 {
+    font-size: 2rem;
     margin-bottom: 3rem;
   }
 
@@ -1332,8 +1363,13 @@ p {
 
   .heading h2,
   .heading p {
-    font-size: 2.375rem;
+    font-size: 2rem;
     line-height: 1.2;
+  }
+
+  .line {
+    width: 100px;
+    height: 5px;
   }
 
   .heading .small-title {
@@ -1350,6 +1386,7 @@ p {
   }
 
   .globe-item-text h2 {
+    font-size: 2rem;
     line-height: 1.2;
     margin-bottom: 3rem;
   }
@@ -1370,15 +1407,23 @@ p {
     grid-template-columns: 1fr 1fr;
   }
 
+  .program-list-item {
+    padding: 0 0 0 2rem;
+  }
+
   .program-list-item p:nth-of-type(2) {
     width: 300px;
     height: 100%;
-    margin-bottom: 70px;
+    margin-bottom: 2rem;
   }
 
   .support {
     grid-template-columns: 1fr;
     padding: 2rem;
+  }
+
+  .support-text h3 {
+    width: 80%;
   }
 
   .support-list {
@@ -1398,13 +1443,25 @@ p {
     width: 80%;
   }
 
+  .partners-up-content p:nth-of-type(2) {
+    width: 60%;
+  }
+
   .partners-down-content {
     grid-template-columns: 1fr 1fr;
   }
 
+  .partner-item h3 {
+    margin-bottom: 2rem;
+  }
   .partner-item p {
     width: 100%;
     height: 100%;
     margin-bottom: 2rem;
+  }
+
+  .partner-item .image-content {
+    margin-bottom: 1rem;
+    height: 99px;
   }
 }
