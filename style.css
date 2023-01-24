@@ -667,7 +667,6 @@ p {
 }
 
 .support-list .long-flesh {
-  width: 456px;
   height: 1px;
   background: #000000;
   opacity: 0.15;
@@ -696,20 +695,17 @@ p {
 }
 
 .support-list-item {
-  grid-template-columns: 90% 10%;
-  display: grid;
   width: 456px;
 }
 
-.support-list-item .left-text {
-  flex: 1;
-  flex-basis: 96.7%;
+.support-grid {
+  grid-template-columns: 90% 10%;
+  display: grid;
 }
 
 .support-list-item .plus-icon {
   width: 15px;
   height: 15px;
-  margin-top: 35px;
   justify-self: flex-end;
 }
 
@@ -717,7 +713,6 @@ p {
   width: 15px;
   height: 1.4px;
   background: #000000;
-  margin-top: 39px;
   justify-self: flex-end;
 }
 
