@@ -696,8 +696,9 @@ p {
 }
 
 .support-list-item {
-  display: flex;
-  justify-content: space-between;
+  grid-template-columns: 90% 10%;
+  display: grid;
+  width: 456px;
 }
 
 .support-list-item .left-text {
@@ -709,8 +710,7 @@ p {
   width: 15px;
   height: 15px;
   margin-top: 35px;
-  flex: 1;
-  flex-basis: 3.3%;
+  justify-self: flex-end;
 }
 
 .support-list-item .dash {
@@ -718,8 +718,7 @@ p {
   height: 1.4px;
   background: #000000;
   margin-top: 39px;
-  flex: 1;
-  flex-basis: 3.3%;
+  justify-self: flex-end;
 }
 
 .partners-up-content {
@@ -1124,7 +1123,7 @@ p {
 
   .support {
     grid-template-columns: 1fr;
-    padding: 0 2rem;
+    padding: 0 1rem;
   }
 
   .support-text h3 {
@@ -1147,6 +1146,14 @@ p {
   }
 
   .support-list .long-flesh {
+    width: 100%;
+  }
+
+  .support-list-item {
+    width: 100%;
+  }
+
+  .support-list-item:nth-of-type(4) h4 {
     width: 100%;
   }
 
