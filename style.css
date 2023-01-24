@@ -786,7 +786,7 @@ p {
 
 @media (max-width: 600px) {
   body {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.5;
   }
 
@@ -850,7 +850,7 @@ p {
 
   .hero-up .text-content,
   .hero-down .text-content {
-    padding: 2.5rem;
+    padding: 1.5rem;
   }
 
   .hero-up .text-content h1 {
@@ -1238,6 +1238,10 @@ p {
   .nav a {
     margin-right: 0;
     font-size: 0.875rem;
+  }
+
+  .nav li {
+    justify-self: center;
   }
 
   .nav li img {
