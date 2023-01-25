@@ -821,6 +821,7 @@ label {
   text-transform: uppercase;
   color: #000000;
   margin-bottom: 20px;
+  height: 24px;
 }
 
 input[placeholder] {
