@@ -437,7 +437,7 @@ p {
 .box-4 img,
 .box-5 img,
 .box-6 img {
-  align-self: flex-end;
+  align-self: center;
   max-width: 100%;
 }
 
@@ -987,12 +987,6 @@ p {
     justify-self: center;
   }
 
-  .box-4 img,
-  .box-5 img,
-  .box-6 img {
-    align-self: center;
-  }
-
   .box-4 div:nth-of-type(2) p,
   .box-5 div:nth-of-type(2) p,
   .box-6 div:nth-of-type(2) p {
@@ -1353,11 +1347,6 @@ p {
     padding-right: 1rem;
   }
 
-  .box-4 img,
-  .box-5 img,
-  .box-6 img {
-    align-self: center;
-  }
   .philosophy {
     background-size: cover;
     background-repeat: no-repeat;
