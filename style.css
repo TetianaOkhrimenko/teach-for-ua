@@ -784,6 +784,73 @@ p {
   display: block;
 }
 
+.conection {
+  padding: 150px 0 150px 210px;
+}
+
+.conection h3 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 4.375rem;
+  width: 42%;
+}
+
+.conection-text {
+  width: 25%;
+  margin-bottom: 6.25rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left-form,
+.right-form {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+label {
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+input[placeholder] {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  color: #000000;
+  opacity: 0.35;
+}
+
+input[type="text"],
+input[type="email"] {
+  border: none;
+  border-bottom: 1px solid #b9b9b9;
+  width: 460px;
+  margin-bottom: 50px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #b9b9b9;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+}
+
 @media (max-width: 600px) {
   body {
     font-size: 20px;
