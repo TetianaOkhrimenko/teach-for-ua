@@ -1445,6 +1445,10 @@ p {
     padding-top: 3rem;
   }
 
+  .support-list-item {
+    width: 100%;
+  }
+
   .partners-up-content {
     width: 100%;
     margin-left: 2rem;
