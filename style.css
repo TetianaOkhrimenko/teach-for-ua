@@ -1262,6 +1262,32 @@ input[type="submit"] {
   .partner-item .image-content {
     margin-bottom: 1rem;
   }
+
+  .conection {
+    padding: 1rem 0 1rem 1rem;
+  }
+
+  .conection h3 {
+    font-size: 1.75rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .conection-text {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
 }
 
 @media (min-width: 601px) and (max-width: 900px) {
@@ -1538,5 +1564,31 @@ input[type="submit"] {
   .partner-item .image-content {
     margin-bottom: 1rem;
     height: 99px;
+  }
+
+  .conection {
+    padding: 2rem 0 1rem 2rem;
+  }
+
+  .conection h3 {
+    font-size: 28px;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .conection-text {
+    width: 70%;
+    margin-bottom: 2rem;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    margin-bottom: 2rem;
   }
 }
