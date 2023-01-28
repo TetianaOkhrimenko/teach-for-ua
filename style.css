@@ -29,8 +29,8 @@
 
 body {
   font-family: "Basis Grotesque Pro", sans-serif;
-  font-size: 16px; /*16px*/
-  line-height: 24px; /*24px*/
+  font-size: 16px;
+  line-height: 24px;
   font-weight: 400;
   letter-spacing: -0.03em;
 }
@@ -816,7 +816,7 @@ p {
   grid-template-columns: 1fr;
 }
 
-label {
+.conection-form label {
   font-weight: 700;
   letter-spacing: -0.03em;
   text-transform: uppercase;
@@ -825,7 +825,7 @@ label {
   height: 24px;
 }
 
-input[placeholder] {
+.conection-form input[placeholder] {
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
@@ -833,32 +833,145 @@ input[placeholder] {
   padding-bottom: 5px;
 }
 
-input::placeholder {
+.conection-form input::placeholder {
   color: #000000;
   opacity: 0.35;
 }
 
-input[type="text"],
-input[type="email"] {
+.conection-form input[type="text"],
+.conection-form input[type="email"] {
   border: none;
   border-bottom: 1px solid #b9b9b9;
   width: 460px;
   margin-bottom: 50px;
 }
 
-input[type="text"]:focus,
-input[type="email"]:focus {
+.conection-form input[type="text"]:focus,
+.conection-form input[type="email"]:focus {
   outline: none;
   border: none;
   border-bottom: 1px solid #b9b9b9;
 }
 
-input[type="submit"] {
+.conection-form input[type="submit"] {
   cursor: pointer;
 }
 
 .form-btn {
   padding: 1rem 3.75rem;
+}
+
+footer {
+  color: #ffffff;
+}
+
+footer .image-content {
+  z-index: 2;
+}
+
+footer .text-content {
+  height: 926px;
+  background-color: #0536fc;
+  padding: 386px 263px 0 50px;
+  margin-top: -245px;
+}
+
+.footer-block {
+  display: grid;
+  grid-template-columns: 174px 1fr 1fr 1fr 1fr;
+  margin-bottom: 70px;
+}
+
+.footer-item ul {
+  list-style: none;
+}
+
+.footer-item li {
+  opacity: 0.9;
+  margin-bottom: 15px;
+}
+
+.footer-item li:nth-child(1) {
+  opacity: 1;
+  margin-bottom: 30px;
+}
+
+.footer-item .list-item {
+  opacity: 0.6;
+  width: 228px;
+  margin-bottom: 70px;
+}
+
+.footer-item a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-form input {
+  background-color: #0536fc;
+  opacity: 0.55;
+  color: #ffffff;
+}
+
+.footer-form input::placeholder {
+  font-family: "Basis Grotesque Pro";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  font-weight: 300;
+  opacity: 0.35;
+  color: #ffffff;
+}
+
+.footer-form input[type="text"] {
+  border: none;
+  border-bottom: 1px solid #b9b9b9;
+  width: 277px;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+}
+
+.footer-form input[type="text"]:focus {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #b9b9b9;
+}
+
+.footer-btn {
+  font-family: "Basis Grotesque Pro";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #0536fc;
+  border: none;
+  cursor: pointer;
+}
+
+.footer-down {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 428px;
+}
+
+.footer-down-1 p {
+  opacity: 0.35;
+  width: 480px;
+}
+
+.footer-down-2 {
+  margin-top: 25px;
+}
+
+.footer-down-2 p {
+  margin-bottom: 30px;
+}
+
+.footer-down-2 img {
+  margin-right: 25px;
 }
 
 @media (max-width: 600px) {
@@ -1277,6 +1390,12 @@ input[type="submit"] {
     padding: 1rem;
   }
 
+  .conection-form input[type="text"],
+  .conection-form input[type="email"] {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
   .conection h3 {
     font-size: 1.75rem;
     line-height: 1.2;
@@ -1291,6 +1410,7 @@ input[type="submit"] {
 
   .form-grid {
     grid-template-columns: 1fr;
+    margin-bottom: 1rem;
   }
 
   input[type="text"],
@@ -1301,6 +1421,53 @@ input[type="submit"] {
 
   .form-btn {
     padding: 1rem 3.75rem;
+  }
+
+  footer .text-content {
+    height: auto;
+    padding: 1rem;
+    margin-top: 0;
+  }
+
+  .footer-block {
+    grid-template-columns: 1fr;
+    margin-bottom: 1rem;
+    gap: 2rem;
+  }
+
+  .footer-item:nth-of-type(1) {
+    display: none;
+  }
+
+  .footer-item li:nth-child(1) {
+    margin-bottom: 0;
+  }
+
+  footer li {
+    display: none;
+  }
+
+  .footer-item .media-item {
+    display: block;
+  }
+
+  .footer-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 1rem;
+  }
+
+  .footer-btn {
+    justify-self: left;
+  }
+
+  .footer-down {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .footer-down-1 p {
+    width: 100%;
   }
 }
 
@@ -1603,6 +1770,17 @@ input[type="submit"] {
   input[type="text"],
   input[type="email"] {
     width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  footer .text-content {
+    height: auto;
+    padding: 2rem;
+    margin-top: -20px;
+  }
+
+  .footer-block {
+    grid-template-columns: 174px 1fr 1fr 1fr 1fr;
     margin-bottom: 2rem;
   }
 }
