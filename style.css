@@ -1751,6 +1751,10 @@ footer .text-content {
     padding: 2rem 0 1rem 2rem;
   }
 
+  .conection-content {
+    width: 80%;
+  }
+
   .conection h3 {
     font-size: 28px;
     line-height: 1.2;
@@ -1759,8 +1763,13 @@ footer .text-content {
   }
 
   .conection-text {
-    width: 70%;
+    width: 100%;
     margin-bottom: 2rem;
+  }
+
+  .conection-form input[type="text"],
+  .conection-form input[type="email"] {
+    width: 80%;
   }
 
   .form-grid {
@@ -1780,7 +1789,34 @@ footer .text-content {
   }
 
   .footer-block {
-    grid-template-columns: 174px 1fr 1fr 1fr 1fr;
+    grid-template-columns: 15% 25% 25% 25%;
     margin-bottom: 2rem;
+    gap: 1rem;
+  }
+
+  .footer-item:nth-of-type(5) {
+    grid-column: 2/4;
+  }
+
+  .footer-item .list-item {
+    margin-bottom: 2rem;
+  }
+
+  .footer-down {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .footer-down {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .footer-down-1 p {
+    width: 100%;
+  }
+
+  .footer-down-2 {
+    margin-top: 0;
   }
 }
