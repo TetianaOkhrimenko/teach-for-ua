@@ -807,6 +807,7 @@ p {
 .form-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-bottom: 50px;
 }
 
 .left-form,
@@ -829,6 +830,10 @@ input[placeholder] {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.03em;
+  padding-bottom: 5px;
+}
+
+input::placeholder {
   color: #000000;
   opacity: 0.35;
 }
@@ -850,6 +855,10 @@ input[type="email"]:focus {
 
 input[type="submit"] {
   cursor: pointer;
+}
+
+.form-btn {
+  padding: 1rem 3.75rem;
 }
 
 @media (max-width: 600px) {
@@ -1265,7 +1274,7 @@ input[type="submit"] {
   }
 
   .conection {
-    padding: 1rem 0 1rem 1rem;
+    padding: 1rem;
   }
 
   .conection h3 {
@@ -1288,6 +1297,10 @@ input[type="submit"] {
   input[type="email"] {
     width: 100%;
     margin-bottom: 2rem;
+  }
+
+  .form-btn {
+    padding: 1rem 3.75rem;
   }
 }
 
