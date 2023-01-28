@@ -1142,7 +1142,7 @@ footer .text-content {
   }
 
   .box-2 {
-    padding: 2rem 0 2rem 2rem;
+    padding: 2rem;
   }
 
   .box-2 p:last-of-type {
@@ -1427,6 +1427,7 @@ footer .text-content {
     height: auto;
     padding: 1rem;
     margin-top: 0;
+    margin-top: -20px;
   }
 
   .footer-block {
@@ -1601,6 +1602,10 @@ footer .text-content {
     padding: 0 2rem 2rem 2rem;
   }
 
+  .box-2 p:last-of-type {
+    width: 80%;
+  }
+
   .box-2 h2 {
     margin-bottom: 2rem;
     font-size: 2rem;
@@ -1659,7 +1664,7 @@ footer .text-content {
   }
 
   .globe-item-text {
-    padding: 4rem;
+    padding: 2rem;
     width: 80%;
   }
 
