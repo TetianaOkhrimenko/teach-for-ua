@@ -1420,6 +1420,7 @@ footer .text-content {
   }
 
   .form-btn {
+    font-size: 20px;
     padding: 1rem 3.75rem;
   }
 
@@ -1432,7 +1433,7 @@ footer .text-content {
 
   .footer-block {
     grid-template-columns: 1fr;
-    margin-bottom: 1rem;
+    margin: 1rem 0;
     gap: 2rem;
   }
 
