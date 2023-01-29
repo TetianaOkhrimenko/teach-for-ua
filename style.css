@@ -1634,6 +1634,7 @@ footer .text-content {
 
   .philosophy-text-content {
     padding: 2rem;
+    margin-bottom: -2px;
   }
 
   .philosophy-text-content h3 {
@@ -1689,6 +1690,7 @@ footer .text-content {
 
   .program-list {
     grid-template-columns: 1fr 1fr;
+    padding-top: 1rem;
   }
 
   .program-list-item {
@@ -1732,7 +1734,7 @@ footer .text-content {
   }
 
   .partners-up-content p:nth-of-type(2) {
-    width: 60%;
+    width: 80%;
   }
 
   .partners-down-content {
