@@ -1248,10 +1248,6 @@ footer .text-content {
     display: none;
   }
 
-  .globe {
-    grid-template-columns: 1fr;
-  }
-
   .globe-item-text {
     padding: 2rem;
   }
