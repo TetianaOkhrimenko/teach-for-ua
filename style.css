@@ -213,7 +213,7 @@ p {
 
 .main-item-1 {
   grid-area: main-item-1;
-  padding: 150px 80px 116px 210px;
+  padding: 150px 80px 0 210px;
 }
 
 .main-item-1 h2 {
@@ -269,6 +269,8 @@ p {
 .main-item-3 .arrow-content,
 .main-item-4 .arrow-content {
   flex-basis: 28%;
+  width: 100px;
+  height: 100px;
 }
 
 .main-item-2 .text-content:hover,
@@ -345,9 +347,10 @@ p {
   align-self: flex-end;
 }
 
-.arrow-content img {
+.arrow-content svg {
   width: 30px;
   height: 30px;
+  cursor: pointer;
 }
 
 .boxes-up {
