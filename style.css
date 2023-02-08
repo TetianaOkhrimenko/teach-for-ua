@@ -427,7 +427,7 @@ p {
 .box-5 div:nth-of-type(1),
 .box-6 div:nth-of-type(1) {
   display: flex;
-  margin-bottom: 3.125rem; /*50px*/
+  margin-bottom: 30px;
 }
 
 .box-4 div:nth-of-type(2) p,
@@ -437,16 +437,26 @@ p {
   opacity: 0.6;
 }
 
-.box-4 img,
-.box-5 img,
-.box-6 img {
+.box-4 svg,
+.box-5 svg,
+.box-6 svg {
   align-self: center;
-  max-width: 100%;
+  margin-right: 35px;
 }
 
-.box-icon {
-  padding-right: 35px;
-  /*margin-right: 2.187 rem; /*35px;*/
+.box-4 svg {
+  width: 70px;
+  height: 70px;
+}
+
+.box-5 svg {
+  width: 98px;
+  height: 70px;
+}
+
+.box-6 svg {
+  width: 73px;
+  height: 70px;
 }
 
 .philosophy {
